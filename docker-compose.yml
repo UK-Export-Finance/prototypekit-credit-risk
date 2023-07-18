@@ -1,9 +1,9 @@
 version: "3"
 services:
-  prototype-kit:
+  prototypekit-credit-risk:
     build:
       context: .
-    image: prototype-kit-cr
+    image: prototypekit-credit-risk
     restart: always
     ports:
       - "3000:3000"
